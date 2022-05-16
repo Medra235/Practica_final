@@ -1,0 +1,353 @@
+/* CUERPO */
+body{
+  margin: auto;
+  padding: auto;
+  font-family: "source serif pro",Georgia,serif;
+}
+
+
+/* ENCABEZADO */
+
+/* .subscribe-sticky {
+  width: 150px;
+  height: 28px;
+  top: 40px;
+  left: 44px;
+}
+.subscribe-sticky a {
+  margin-left: 6px;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.subscribe-sticky a:hover {
+  color: #192e31;
+}
+.subscribe-sticky .imagen-usuario {
+  margin: auto 6px auto 0;
+}
+.subscribe-sticky a p {
+  margin: auto 0;
+  display: inline;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.1pt;
+} */
+
+
+#top {
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  background-color: #192e31;
+  width: 100%;
+}
+#header {
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+#logo1{
+  float: left;
+  width: 135px;
+  height: 139px;
+  margin-left: 15%;
+}
+#menu{
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 0.1pt;
+  margin-right: 20%;
+}
+#menu a {
+  color: #40565a;
+}
+
+
+
+/* CONTENIDO  HOME */
+/* CAROUSEL */
+.Carousel h4, h2, small, a{
+  margin: 0;
+  padding: 0;
+}
+.Carousel a{
+  text-decoration: none;
+}
+.Carousel{
+  width: 100%;
+  margin: 0px 0px;
+  align-items: center;
+}
+.Carousel h2{
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* imagenes */
+.slick-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+.slick{
+  position: relative;
+  width: 275px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+.slick h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: #fff;
+  padding: 15px;
+}
+.slick h4 small{
+  font-size: 15px;
+  display: block;
+}
+.slick a img{
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+  transition: .3s ease-in-out;
+}
+.slick a img:hover{
+  opacity: .85;
+}
+
+/* botones */
+.slick-arrow{
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  border: 0;
+  cursor: pointer;
+}
+.slick-arrow:focus{
+  outline: 0;
+}
+.slick-arrow svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0,0,0,.7);
+}
+.slick-prev{
+  left: 0px;
+}
+.slick-next{
+  right: 0px;
+}
+/* FIN DEL CONTENIDO  HOME */
+
+
+
+/* CONTENIDO  CIENCIA */
+/* articulo encabezado */
+h1.titulo-pagina{
+  font-family: Cambria,Georgia,serif;
+  font-size: 45px;
+  text-align: center;
+  display: block;
+  height: 50px;
+  margin-bottom: 1px;
+}
+.linea-titulo-pagina{
+  content: "";
+  border-bottom: 3px solid #31595f;
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+}
+.primer-articulo{
+  overflow: hidden;
+  position: relative;
+  margin: 30px auto;     
+  text-align: center;
+}
+.primer-articulo img{
+  width: 100%;
+  height: 100%;
+}
+.primer-articulo h2{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 4vw;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.primer-articulo h2:hover{
+  color: #cce1e5;
+}
+
+/* articulos */
+#articulos-inicio h5{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293133;
+}
+#articulos-inicio h5:hover {
+  color: #31595f;
+}
+.linea-chiquita{
+  content: "";
+  background-color: #ffce00;
+  display: block;
+  width: 3px;
+  height: 20px;
+  position: absolute;
+  left: 4px;
+}
+.articlesList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card-title{
+  font-size: 21px;
+  font-weight: 600;
+  font-family: source sans pro;
+  text-transform: uppercase;
+}
+.titulo-aside{
+  font-size: 20px;
+  font-weight: 500;
+  color: #293133;
+}
+.titulo-aside:hover {
+  color: #31595f;
+}
+.lineasidebar{
+  content: "";
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 23px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+aside {
+  display: block;
+}
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.card{
+  border: none;
+}
+/* novedades */
+h2.titulo-novedades{  
+  font-family: Cambria,Georgia,serif;
+  font-size: 40px;
+  height: 50px;
+  text-align: left;
+  display: block;
+}
+.linea-titulo-novedades{
+  content: "";
+  border-bottom: 3px solid #31595f;
+  width: 270px;
+  height: 3px;
+  display: block;
+  margin: auto;
+  margin-bottom: 17px;
+  margin-right: 100%;
+}
+#novedades h3, h5{
+  opacity: 85%;
+}
+#novedades .card{
+  transition: all 700ms;
+}
+#novedades .card:hover{
+  transform: scale(1.02);
+}
+.card-grid .card-grid-lg {
+  height: 560px;
+}
+.card-grid .card-grid-sm {
+  height: calc(280px - calc(var(--bs-gutter-y) / 2));
+}
+.card a{
+text-decoration: none;
+}
+/* FIN DEL CONTENIDO  CIENCIA */
+
+
+
+/* CONTENIDO  NATURALEZA */
+
+
+/* FIN DEL CONTENIDO  NATURALEZA */
+
+
+
+/* CONTENIDO  TECNOLOGÍA */
+
+
+/* FIN DEL CONTENIDO  TECNOLOGÍA */
+
+
+
+/* FOOTER */
+#inicio-footer{
+  background-color: #EAECEF;
+  width: 100%;
+}
+#formulario_footer{
+  width: 450px;
+  height: 200px;
+}
+.formulario{
+  margin-top: 50px;
+  display: block;
+}
+#imagen_footer{
+  width: 350px;
+}
